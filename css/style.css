@@ -1,0 +1,76 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contenitore {
+    width: 50%;
+    margin: 100px auto;
+}
+.riga {
+    margin: 40px 0px;
+}
+.img{
+    width: 300px;
+    height: 450px;
+}
+.img2{
+    width: 300px;
+    height: 450px;
+    display: none;
+    position: absolute;
+    left: 0%;
+} 
+.prodotto:hover .img2{
+    display: inline-block;
+}
+.prodotto {
+    position: relative;
+    display: inline-block;
+}
+
+.prodotto .cuore {
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.sconto50{
+    color: white;
+    background-color: rgb(230, 66, 87);
+    font-size: 11px;
+    padding: 4px;
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    font-weight: 700;
+}
+.sostenibility{
+    color: white;
+    background-color: green;
+    font-size: 11px;
+    padding: 4px;
+    position: absolute;
+    left: 35px;
+    bottom: 20px;
+    font-weight: 700;
+}
+.testo1{
+    font-size: 11px;
+}
+.testo2{
+    font-size: 14px;
+    font-weight: 700;
+}
+.testo3{
+    font-size: 12px;
+    color:rgb(230, 66, 87);
+    font-weight: 700;
+}
+.testo4{
+    font-size: 12px;
+    text-decoration: line-through;
+    font-weight: 700;
+}
