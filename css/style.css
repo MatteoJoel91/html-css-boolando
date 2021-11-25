@@ -44,7 +44,7 @@ body{
     padding: 4px;
     position: absolute;
     left: 0;
-    bottom: 20px;
+    bottom: 75px;
     font-weight: 700;
 }
 .sostenibility{
@@ -54,7 +54,17 @@ body{
     padding: 4px;
     position: absolute;
     left: 35px;
-    bottom: 20px;
+    bottom: 75px;
+    font-weight: 700;
+}
+.sostenibility2{
+    color: white;
+    background-color: green;
+    font-size: 11px;
+    padding: 4px;
+    position: absolute;
+    left: 0px;
+    bottom: 75px;
     font-weight: 700;
 }
 .testo1{
