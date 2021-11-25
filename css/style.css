@@ -1,10 +1,24 @@
+/* Applico il font per l'intero codice */
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
+/* Edit del contenitore */
 .contenitore {
     width: 50%;
     margin: 100px auto;
 }
+
+
+/* edit della classe "prodotto"*/
+.prodotto {
+    position: relative;
+    display: inline-block;
+}
+
+
+/* Edit della classe "riga" "img" "img2", "img2" con :hover*/
 .riga {
     margin: 40px 0px;
 }
@@ -18,15 +32,13 @@ body{
     display: none;
     position: absolute;
     left: 0%;
-} 
+}
 .prodotto:hover .img2{
     display: inline-block;
 }
-.prodotto {
-    position: relative;
-    display: inline-block;
-}
 
+
+/* Edit dei vari tag applicati sulle immagini */
 .prodotto .cuore {
     position: absolute;
     top: 15px;
@@ -67,6 +79,9 @@ body{
     bottom: 75px;
     font-weight: 700;
 }
+
+
+/* Edit dei testi sottostanti alle immagini */
 .testo1{
     font-size: 11px;
 }
